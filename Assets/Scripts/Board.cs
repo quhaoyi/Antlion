@@ -10,11 +10,11 @@ public class Board : MonoBehaviour {
     public GameObject antlion;
     public GameObject highlight;
     public Text Hint;
+    public Text AntText;
 
     public GameObject card1, card2, card3, card4;
     public GameObject[] antCards = new GameObject[8];
     public GameObject[] antlionCards = new GameObject[8];
-
 
     public bool inSkill;
     public bool IsOver = false;
